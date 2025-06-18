@@ -5,7 +5,7 @@ from decouple import config
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-me')
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['*', '.vercel.app', 'localhost']
 
 INSTALLED_APPS = [
