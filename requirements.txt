@@ -3,4 +3,4 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 python-decouple==3.8
 google-generativeai==0.3.2
-corsheaders 
+django-cors-headers==4.3.1
