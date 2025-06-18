@@ -9,7 +9,7 @@ from .unified_service import process_tds_question
 logger = logging.getLogger(__name__)
 
 @csrf_exempt
-@require_http_methods(["POST"])
+@require_http_methods(["POST", "GET"])
 def virtual_ta_api(request):
     """TDS Virtual TA API endpoint"""
     start_time = time.time()
